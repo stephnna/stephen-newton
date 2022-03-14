@@ -11,25 +11,31 @@
   <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <script  src="js/index.js"></script>
+<div class="container">
 
- <header id="header">
-   <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo" id="header-img">
-   <nav id="nav-bar">
-     <a class="nav-link" href="#features">Feature</a>
-     <a class="nav-link" href="#how-it-works">How it works</a>
-     <a class="nav-link" href="#pricing">Pricing</a>
-   </nav>
- </header>
- <form id="form" action="">
-   <label for="email">Handcrafted, home-made masterpieces</label>
-   <input type="email" id="email" placeholder="Enter your email address">
-   <input type="submit" id="submit" value="GET STARTED" onClick="myFunction">
- </form>
- <section id="features"></section>
- <section id="how-it-works"><video id="video" width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-</video></section>
- <section id="pricing"></section>
+  <header id="header">
+    <div><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo" id="header-img"></div>
+    <nav id="nav-bar">
+      <ul class="right">
+      <li><a class="nav-link" href="#features">Feature</a></li>
+      <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+      <li> <a class="nav-link" href="#pricing">Pricing</a></li>    
+      </ul>
+      
+    </nav>
+  </header>
+  <form id="form" class="container">
+    <label for="email">Handcrafted, home-made masterpieces</label><br><br><br>
+    <input type="email" id="email" placeholder="Enter your email address"><br><br>
+    <input type="submit" id="submit" value="GET STARTED" onClick="myFunction">
+  </form><br><br><br>
+  <section id="features"></section>
+  <section id="how-it-works"><video id="video" width="320" height="240" controls>
+   <source src="movie.mp4" type="video/mp4">
+   <source src="movie.ogg" type="video/ogg">
+ </video></section>
+  <section id="pricing"></section>
+</div>
+ 
   </body>
 </html>
